@@ -1,0 +1,234 @@
+main{
+    padding: 60px;
+    }     
+    
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #18191a;
+    text-align: left;
+    background-image: radial-gradient(#d3d3d3 1px, transparent 0); 
+    background-size: 40px 40px; 
+    background-color: #FBFAF2;
+    }
+    
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #18191a;
+    text-align: left;
+    font-size: 1em;
+    }
+    
+/* MENU */
+    
+    ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    }
+    
+    li {
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 1em;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #202020;
+    }
+    
+/* HEADERS */
+    
+    header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    }
+    
+    h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 4em;
+    color: #202020;
+    text-align: left;
+    }
+    
+    h2 {
+    font-size: 3em;
+    text-align: center;
+    }
+    
+    h2 {
+                font-size: 1.5em;
+                text-align: center;
+            }
+    
+            p {
+                font-size: 1em;
+                color: #18191a;
+                text-align: left;
+            }
+    
+/* TAGS */
+
+    .tag {
+        font-family: 'Hammersmith One', sans-serif;
+        outline: 0;
+        color: #202020;
+        background-color: 3D5A80;
+        border-color: 3D5A80;
+        display: inline-block;
+        line-height: 1.5;
+        text-align: center;
+        border: 1px solid transparent;
+        padding: 6px 12px;
+        font-size: 16px;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color 0.15s ease-in-out,border-color .15s ease-in-out, box-shadow 0.15s ease-in-out;
+        :hover {
+            color: #202020;
+            background-color: 3D5A80;
+            border-color: rgb(3, 74, 179)
+        }
+    }
+
+/* GALLERY */
+    
+    div.gallery {
+    border: 1px solid #ccc;
+    }
+            
+    div.gallery:hover {
+    border: 1px solid #777;
+    }
+            
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+            
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+    
+    * {
+    box-sizing: border-box;
+    }
+    
+    .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    }
+
+    .responsive-gal {
+        float: left;
+        width: 60%;
+    }
+    
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+/* DIVS */
+    
+    .row {
+    display: flex;
+    padding: 20px 0;
+    }
+    
+    .col-left {
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+    padding-top: 50px;
+    }
+    
+    .row {
+    display: flex;
+    }
+    
+    .column {
+    flex: 50%;
+    }
+            
+    .col-right {
+    width: 60%;
+    float: right;
+    padding-left: 20px;
+    }
+            
+    .button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    display: inline;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 950%);
+    }
+    
+    .img {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    max-width: 365px;
+    }
+
+    #gmp1-process {
+        background-image: url(https://i.imgur.com/XdsGzB4.jpg);
+        width: 100%;
+        height: auto;
+      }    
+    
+/* MEDIA QUERY */    
+@media screen and (max-width: 800px) {
+    .col-left, .col-right {
+      width: 100%; 
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    .responsive {
+      width: 100%; 
+    }
+  }
+  
+/* FOOTER */
+    
+    footer {
+    background-color: #F2DFD7;
+    padding: 30px;
+    font-size: 0.8em;
+    }
+            
+    .center-footer {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #18191a;
+    }
+            
+    .paragraph-footer {
+    text-align: left;
+    color: #18191a;
+    }
+            
+    .links-footer {
+    text-align: right;
+    color: midnightblue;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    }
+        
